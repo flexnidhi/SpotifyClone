@@ -1,0 +1,601 @@
+body {
+    background-color: rgb(19, 19, 19);
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.spot1,
+.spot2 {
+    color: rgb(255, 255, 255);
+    background-color: #3231316b;
+    width: 20%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+svg path {
+    fill: #ffffff;
+    width: 15px;
+
+}
+
+.home {
+    display: inline-block;
+    color: #ffffff;
+    position: relative;
+    bottom: 4px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+
+.svg2 {
+    height: 20px;
+    display: inline-block;
+    padding-top: 9px;
+}
+
+.search {
+    height: 21px;
+    width: 24px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+
+}
+
+.searchHeading,
+.library,
+.add {
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 1%;
+    margin-left: 6px;
+}
+
+
+.logo {
+    padding-top: 15px;
+}
+
+.logDivPading {
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+}
+
+/* spot2:  */
+span {
+    position: relative;
+    left: 58px;
+}
+
+.lib {
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 28px;
+    position: relative;
+    top: 7px;
+}
+
+.lib h3 {
+    display: inline-block;
+}
+
+.lib path {
+    padding-top: 2px
+}
+
+.create {
+    color: rgb(255, 255, 255);
+
+}
+
+.playlist {
+    background-color: #4a484869;
+    padding-left: 8px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 11px;
+}
+
+.button {
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.1)
+}
+
+.playlist1 {
+    background-color: #4a484869;
+    padding-left: 8px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 11px;
+
+}
+
+.points {
+    font-size: 13px;
+    color: #c5c5c5;
+    margin-top: 25px;
+
+}
+
+.button1 {
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+}
+
+.button1:hover {
+    background-color: #323131;
+    transform: scale(1.1)
+}
+
+/* 
+main div 3
+*/
+.spot3 {
+    position: absolute;
+    left: 339px;
+    top: 9px;
+    background-color: #ffffff;
+    width: 78%;
+    background-color: #9f3e48;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.arrowButton {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 26px;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 28px;
+    border: none;
+
+}
+
+.arrowButton:hover {
+    background-color: #323131;
+}
+
+.signUp {
+    display: inline-block;
+    color: #9d9d9d;
+    background-color: rgb(197 80 99 / 0%);
+    border: none;
+    font-size: 18px;
+
+
+}
+
+.signUp:hover {
+    color: white;
+    transform: scale(1.1)
+}
+
+.Login {
+    display: inline-block;
+    color: #050000;
+    background-color: rgb(227, 227, 227);
+    border-radius: none;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+
+}
+
+.Login:hover {
+    background-color: white;
+    transform: scale(1.1)
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    left: 75%;
+
+}
+
+/* image */
+.image {
+
+    border-radius: 50%;
+    width: 215px;
+    height: 225px;
+    margin-top: 56px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 17px;
+}
+
+/* blue tick */
+.blueTick {
+    position: relative;
+    top: 39px
+}
+
+.Artist {
+    color: white;
+    bottom: 6px;
+    left: 3px;
+}
+
+.arijit {
+    position: relative;
+    top: 35px;
+}
+
+.singerImg {
+    display: inline-block;
+}
+
+.singerDetails {
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    margin-left: 20px;
+}
+
+.singerName {
+    color: white;
+    font-size: 92px;
+    margin: 0;
+}
+
+.monthlylisteners {
+    color: white;
+    position: relative;
+    top: 29px
+}
+
+/* main div 4 */
+/* 
+list and play button */
+/* play button */
+.spot4 {
+    position: absolute;
+    background-image: linear-gradient(#9f3e48bd, black);
+    width: 78%;
+    left: 339px;
+    bottom: 5px;
+    height: 402px;
+    border-radius: 0px 13px 13px;
+}
+
+.playButton {
+    border-radius: 35px;
+    width: 60px;
+    height: 60px;
+    background-color: #1abc54;
+    border: none;
+    position: relative;
+    top: 21px;
+    left: 35px;
+}
+
+.playButton:hover {
+    background-color: #3fe378;
+    transform: scale(1.1)
+}
+
+.pybtn {
+    position: relative;
+    top: 4px;
+    left: 5px;
+    width: 24px;
+}
+
+.Follow {
+    position: absolute;
+    bottom: 332px;
+    left: 118px;
+    background-color: #80808000;
+    color: white;
+    font-size: 19px;
+    border: solid 1px rgba(255, 235, 235, 0.274);
+    border-radius: 10px;
+    padding: 4px 11px;
+}
+
+.Follow:hover {
+    border-radius: solid 5px white;
+    transform: scale(1.1)
+}
+
+.dot {
+    position: absolute;
+    bottom: 335px;
+    left: 224px;
+    background-color: #80808000;
+    color: #787272;
+    font-size: 44px;
+    border: none;
+}
+
+.dot:hover {
+    color: white;
+}
+
+.popular {
+    color: white;
+    position: absolute;
+    left: 37px;
+    bottom: 260px;
+}
+
+.pick {
+    position: absolute;
+    color: white;
+    right: 465px;
+    bottom: 262px;
+}
+
+/* song list */
+.serial1 {
+    color: rgba(255, 255, 255, 0.547);
+    font-size: 19px;
+    position: absolute;
+    top: 123px;
+    left: 44px;
+}
+
+.serial1:hover {
+    color: white;
+}
+
+
+.animal {
+    position: absolute;
+    height: 43px;
+    left: 73px;
+    bottom: 226px
+}
+
+.Satranga {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 127px;
+    left: 135px;
+}
+
+.no1 {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 128px;
+    left: 353px;
+}
+
+.no1:hover {
+    color: white;
+}
+
+.No1 {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 128px;
+    left: 549px;
+}
+
+.No1:hover {
+    color: white;
+}
+
+/* 
+song2
+
+*/
+.serial2 {
+    color: rgba(255, 255, 255, 0.567);
+    font-size: 19px;
+    position: absolute;
+    top: 185px;
+    left: 44px
+}
+
+.serial2:hover {
+    color: white;
+}
+
+.jawan {
+    position: absolute;
+    height: 43px;
+    top: 194px;
+    left: 73px;
+}
+
+.chaleya {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 192px;
+    left: 135px;
+}
+
+.no2 {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 192px;
+    left: 353px;
+}
+
+.no2:hover {
+    color: white;
+}
+
+.No2 {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 192px;
+    left: 549px;
+}
+
+.No2:hover {
+    color: white;
+}
+
+/* song3 */
+.serial3 {
+    color: rgba(255, 255, 255, 0.567);
+    font-size: 19px;
+    position: absolute;
+    top: 245px;
+    left: 44px
+}
+
+.serial3:hover {
+    color: white;
+}
+
+.dunki {
+    position: absolute;
+    height: 43px;
+    top: 255px;
+    left: 73px;
+}
+
+.OMaahi {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 135px;
+}
+
+.no3 {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 249px;
+    left: 353px
+}
+
+.no3:hover {
+    color: white;
+}
+
+.No3 {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 250px;
+    left: 549px;
+}
+
+.No3:hover {
+    color: white;
+}
+
+/* song 4 */
+.serial4 {
+    color: rgba(255, 255, 255, 0.567);
+    font-size: 19px;
+    position: absolute;
+    top: 310px;
+    left: 44px
+}
+
+.serial4:hover {
+    color: white;
+}
+
+.heeriye {
+    position: absolute;
+    height: 43px;
+    top: 321px;
+    left: 73px
+}
+
+.songName {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 317px;
+    left: 135px;
+}
+
+.no4 {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 317px;
+    left: 353px
+}
+
+.no4:hover {
+    color: white;
+}
+
+.No4 {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 317px;
+    left: 549px;
+}
+
+.No4:hover {
+    color: white;
+}
+
+.seeMore {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 363px;
+    left: 43px;
+    font-size: 12px;
+}
+
+.seeMore:hover {
+    color: white;
+}
+
+/* artist pick */
+
+.king {
+    position: absolute;
+    height: 108px;
+    left: 660px;
+    bottom: 156px;
+    border-radius: 5px;
+}
+
+.sideImage {
+    position: absolute;
+    height: 30px;
+    left: 786px;
+    top: 142px;
+    border-radius: 15px;
+    width: 30px;
+}
+
+.line {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    left: 820px;
+    top: 134px;
+    font-size: 14px;
+}
+
+.Soulmate {
+    color: white;
+    position: absolute;
+    left: 791px;
+    top: 163px;
+    font-size: 16px;
+}
+
+.song {
+    color: rgba(255, 255, 255, 0.567);
+    position: absolute;
+    left: 793px;
+    top: 191px;
+    font-size: 13px;
+}
